@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <h1>Casba Media!!!</h1>
+        <p>Best Media Agency</p>
       </main>
     </>
   )
