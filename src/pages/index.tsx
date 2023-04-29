@@ -15,8 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <h1>Casba Media!!!</h1>
-        <p>Best Media Agency</p>
+        <p style={{color: 'yellowgreen'}}>Casba Media will be back shortly.</p>
       </main>
     </>
   )
