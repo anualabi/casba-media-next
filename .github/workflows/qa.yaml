@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: QA
-      url: http://casba-media-qa-environment.s3-website.eu-central-1.amazonaws.com/
+      url: http://casba-media-staging-environment.s3-website.eu-central-1.amazonaws.com/
     env:
-      BUCKET_NAME: casba-media-qa-environment
+      BUCKET_NAME: casba-media-staging-environment
     steps:
       - name: Check out code
         uses: actions/checkout@v3
