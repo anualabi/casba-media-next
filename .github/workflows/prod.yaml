@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: PROD
-      url: http://casba-media-prod-environment.s3-website.eu-central-1.amazonaws.com/
+      url: http://www.casbamedia.com.s3-website.eu-central-1.amazonaws.com/
     env:
-      BUCKET_NAME: casba-media-prod-environment
+      BUCKET_NAME: www.casbamedia.com
     steps:
       - name: Check out code
         uses: actions/checkout@v3
